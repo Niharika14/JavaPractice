@@ -10,6 +10,8 @@ G -> G
 The final concatenated result is "Goal".
 */
 
+import com.sun.javaws.progress.PreloaderPostEventListener;
+
 public class Interpret {
     public static String interpret(String command) {
         /*if (command.contains("(al)") || command.contains("()")) {
@@ -18,7 +20,24 @@ public class Interpret {
                 command = command.replace("()", "o");
             }
         }*/
-        return command.replace("(al)","al").replace("()","o");
+        //return command.replace("(al)","al").replace("()","o");
+        StringBuilder str = new StringBuilder();
+
+        for (int i = 0; i < command.length(); i++){
+            System.out.println(command.charAt(i));
+            if(command.charAt(i)=='G'){
+                str.append("G");
+            }
+            else if( command.charAt(i)=='(' && command.charAt(i+1)==')'){
+                str.append("o");
+                i++;
+            }
+            else {
+                str.append("al");
+                i+=3;
+            }
+        }
+        return str.toString();
     }
 
     public static void main(String[] args) {

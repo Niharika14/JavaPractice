@@ -9,6 +9,7 @@ public class ContainsDuplicate {
         HashSet<Integer> number = new HashSet<>();
 
         for (int i = 0; i < nums.length; i++) {
+            System.out.println("nums[i] "+nums[i]);
             if (number.contains(nums[i])) {
                 return true;
             }
@@ -18,7 +19,7 @@ public class ContainsDuplicate {
     }
 
     public static void main(String[] args) {
-        int[] nums = {1, 1, 1, 3, 3, 4, 3, 2, 4, 2};
+        int[] nums = {1, 3, 2, 1, 3, 4, 3, 2, 4, 2};
         System.out.println(containsDuplicate(nums));
     }
 }

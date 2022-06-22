@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13902a4b-e833-4b04-8ab0-4083480a699b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaProject.iws" beforeDir="false" afterPath="$PROJECT_DIR$/javaProject.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/string/CountMatches.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/string/CountMatches.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/string/DefangIPaddr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/string/Interpret.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/string/Interpret.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/string/RestoreString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/string/RestoreString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/string/SortSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/string/SortSentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/progampractice/arrays/CheckIfNandItsDoubleExist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/progampractice/arrays/CheckIfNandItsDoubleExist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/progampractice/arrays/ContainsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/progampractice/arrays/ContainsDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/progampractice/arrays/DuplicateZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/progampractice/arrays/DuplicateZeroes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/progampractice/arrays/FindNumbersWithEvenNumberOfDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/progampractice/arrays/FindNumbersWithEvenNumberOfDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/progampractice/testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/progampractice/testing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +44,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="25NZ8qtTDCGjvRv1iCrpfgm5Y9j" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,10 +61,13 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="apnacollegeconcepts.homeworkquestions.questionset1" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.string" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ReplaceUsingStringBuilder">
-    <configuration name="ConvertRomToInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="progampractice.arrays.ConvertRomToInt" />
+  <component name="RunManager" selected="Application.BinarySearch">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="progampractice.arrays.BinarySearch" />
       <module name="javaProject" />
       <extension name="coverage">
         <pattern>
@@ -64,34 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceUsingStringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="progampractice.string.ReplaceUsingStringBuilder" />
-      <module name="javaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="progampractice.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseStringWithoutSpecialChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="progampractice.string.ReverseStringWithoutSpecialChar" />
-      <module name="javaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="progampractice.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortArrayByParity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="progampractice.arrays.SortArrayByParity" />
+    <configuration name="FindNumbersWithEvenNumberOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="progampractice.arrays.FindNumbersWithEvenNumberOfDigits" />
       <module name="javaProject" />
       <extension name="coverage">
         <pattern>
@@ -103,12 +92,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidMountainArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="progampractice.arrays.ValidMountainArray" />
+    <configuration name="MaxConsecutiveOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="progampractice.arrays.MaxConsecutiveOnes" />
       <module name="javaProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="progampractice.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseValueInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="progampractice.arrays.ReverseValueInArray" />
+      <module name="javaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="progampractice.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="progampractice.testing" />
+      <module name="javaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="progampractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReplaceUsingStringBuilder" />
-        <item itemvalue="Application.ConvertRomToInt" />
-        <item itemvalue="Application.ReverseStringWithoutSpecialChar" />
-        <item itemvalue="Application.SortArrayByParity" />
-        <item itemvalue="Application.ValidMountainArray" />
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.ReverseValueInArray" />
+        <item itemvalue="Application.FindNumbersWithEvenNumberOfDigits" />
+        <item itemvalue="Application.testing" />
+        <item itemvalue="Application.MaxConsecutiveOnes" />
       </list>
     </recent_temporary>
   </component>
@@ -155,26 +170,6 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="8" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/progampractice/arrays/DuplicateZeroes.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/progampractice/arrays/DuplicateZeroes.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/progampractice/arrays/DuplicateZeroes.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/progampractice/arrays/DuplicateZeroes.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
