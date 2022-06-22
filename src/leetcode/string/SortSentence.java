@@ -1,5 +1,8 @@
 package leetcode.string;
-import static java.lang.System.*;
+
+import java.util.HashMap;
+
+import static java.lang.System.out;
 
 /*
 Input: s = "is2 sentence4 This1 a3"
@@ -8,15 +11,22 @@ Explanation: Sort the words in s to their original positions "This1 is2 a3 sente
 * */
 public class SortSentence {
     public static String sortSentence(String s) {
-        String[] sec = s.split(" ");
-        String[] result = new String[sec.length];
-        for(String word : sec){
-            System.out.println("word: "+word);
-            System.out.println("last digit: "+word.charAt(word.length()-1));
-            System.out.println(word.charAt(word.length()-1)-'1');
-            //result[word.charAt(word.length()-1)-'1'] = word.substring(0,word.length()-1);
+        String[] splitStr = s.split(" ");
+
+        HashMap<Integer, String> map = new HashMap<>();
+        for (int i = 0; i < splitStr.length; i++) {
+            int len = splitStr[i].length();
+            int id = Character.getNumericValue(splitStr[i].charAt(len - 1));
+            String val = splitStr[i].substring(0, len - 1);
+            map.put(id, val);
         }
-        return String.join(" ",result);
+        StringBuilder strAns = new StringBuilder();
+        for (int i = 0; i < map.size() + 1; i++) {
+            if (map.containsKey(i)) {
+                strAns.append(map.get(i) + " ");
+            }
+        }
+        return strAns.toString().trim();
     }
 
     public static void main(String[] args) {

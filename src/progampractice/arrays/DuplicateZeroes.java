@@ -8,7 +8,7 @@ public class DuplicateZeroes {
         for (int i = 0; i < length; i++) {
             if (arr[i] == 0) {
                 System.out.println(i);
-                for (int j = length-1; j >= i; j--) {
+                for (int j = length - 1; j >= i; j--) {
                     arr[j + 1] = arr[j];
                 }
                 System.out.println(i);

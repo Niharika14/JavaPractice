@@ -26,7 +26,6 @@ public class FindNumbersWithEvenNumberOfDigits {
     public static int countDigit(int num) {
         int count = 0;
         while (num > 0) {
-            int rem = num % 10;
             num = num / 10;
             count++;
         }
