@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class RemoveElement {
     public static void removeElement(int[] num, int ele) {
-
+        /*
         for (int i = 0; i < num.length; i++) {
             if (num[i] == ele) {
                 for (int j = i; j < num.length - 1; j++) {
@@ -13,6 +13,20 @@ public class RemoveElement {
                 break;
             }
 
+        }
+        num[num.length - 1] = 0;
+        System.out.println(Arrays.toString(num));
+        */
+        int index = 0;
+        for (int i = 0; i < num.length; i++) {
+            if (num[i] == ele) {
+                index = i;
+                num[index] = num[i + 1];
+            }
+        }
+
+        for (int j = index; j < num.length-1; j++) {
+            num[j] = num[j + 1];
         }
         num[num.length - 1] = 0;
         System.out.println(Arrays.toString(num));
