@@ -1,4 +1,4 @@
-package progampractice.interviewpractice;
+package progampractice.interviewprepration;
 
 import java.util.Arrays;
 
